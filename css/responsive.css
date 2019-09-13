@@ -1,0 +1,152 @@
+@media (min-width: 1800px){
+    .container{
+        max-width: 1745px;
+    }
+}
+
+@media(min-width: 1460px){
+	.container{
+		max-width: 1420px;
+	}
+}
+@media(max-width: 1459px){
+	.myprofile{
+		font-size: 13px;
+	}
+	.mission .lg-title{
+		font-size: 128px;
+		top:-38px;
+	}
+	.projects-info .title{
+		font-size: 28px;
+	}
+	.projects-info{
+		margin-left: 56px;
+	}
+	.txt{
+		font-size: 12px;
+		margin-left: 36px;
+	}
+	.right{
+		margin-left: 15px;
+	}
+	.buttons-link{
+		font-size: 11px;
+		padding: 12px 14px 7px;
+	}
+	.top-title{
+		font-size: 13px;
+		margin:18px 0; 
+	}
+	.about{
+		font-size: 11px;
+		max-height: 46px;
+	}
+	.shape-block{
+		font-size: 10px;
+	}
+	.down-block{
+		margin-top: 20px;
+	}
+	.archive-project{
+		font-size: 11px;
+		padding: 8px 20px 8px;
+	}
+	.logo-block img{
+		width: 220px;
+	}
+}
+@media(max-width: 1199px){
+	.mission .lg-title{
+		font-size: 90px;
+		top:-28px;
+	}
+	.projects-info{
+		margin-left: 36px;
+	}
+	.projects-info .title{
+		font-size: 20px;
+	}
+	.txt{
+		font-size: 10px;
+		margin-left: 32px;
+		width: 350px;
+	}
+	.buttons-link{
+		font-size: 10px;
+		padding:10px 10px 7px;
+	}
+	.logo-block img{
+		width: 180px;
+	}
+}
+@media(max-width: 991px){
+	.lang-link:last-child{
+		margin-left: 15px;
+	}
+	.search-block{
+		margin:0 15px;
+	}
+	.myprofile{
+		padding:10px 20px 7px;
+		font-size: 12px;
+		margin-left: 15px;
+	}
+	.burger-btn{
+		width: 35px;
+		height: 35px;
+		margin:0;
+	}
+	.lang-link.active{
+		width: 35px;
+		height: 35px;
+		font-size: 11px;
+	}
+	.main-item{
+		margin-top: 120px;
+	}
+	.main-block{
+		flex-direction: column;
+	}
+	.buttons{
+		margin-top: 30px;
+	}
+	.grid{
+		padding: 0;
+	}
+}
+@media(max-width: 767px){
+	.logo-block{
+		margin-top: 20px;
+	}
+	.logo-block img{
+		width: 150px;
+	}
+}
+@media(max-width: 575px){
+	header{
+		padding-top: 20px;
+	}
+	.header-block{
+		flex-direction: column;
+	}
+	.header-info{
+		margin-top: 15px;
+	}
+	.projects-info{
+		flex-direction: column;
+		text-align: center;
+		margin:0;
+	}
+	.txt{
+		margin:0;
+	}
+	.mission .lg-title{
+		font-size: 50px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.burger-menu{
+		width: 260px;
+	}
+}
